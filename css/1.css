@@ -1,0 +1,167 @@
+.navigation {
+    position: absolute;
+    z-index: 2;
+    width: 500px;
+    align-content: left;
+}
+
+.navigation ul {
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+    border-radius: 10px;
+    list-style-type: none;
+    font-family: Sacramento, cursive;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    overflow: hidden;
+    background-color: #1E90FF;
+    position: fixed;
+    top: 0;
+    width: auto;
+    text-shadow: 3px 3px black;
+}
+
+.navigation li {
+    float: left;
+}
+
+.navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navBrand {
+    padding: 20px;
+    margin-top: 180px; 
+    margin-bottom: 0px;
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+    font-size: 75px;
+    font-family: Sacramento, cursive;
+    text-align: center;
+    color: #1E90FF;
+    display: block;
+    background-color: black;
+    text-shadow: 3px 3px white;
+}
+
+/*@media (max-width: 860px){*/
+@media (max-width: 1000px){
+.navigation li a {
+    font-size: 65px;
+}
+
+.parallaxImage h2 {
+    font-size: 40px;
+    line-height: 70px;
+}}    
+
+.active {
+    background-color: #FF084A;
+}
+
+
+body{
+    padding: 20px;
+    color: #5a5a5a;
+    background: url("https://live.staticflickr.com/65535/48665367242_2a8513dded_t.jpg");
+/*    background: #8B171A;*/
+}
+
+.titleText {
+    padding: 100px;
+    margin-top; 100px;  
+}
+
+article {
+    color: #FF084A;
+}
+
+h1 {
+    border-radius: 10px;
+    border-color: white;
+    font-family: pacifico;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-size: 50px;
+    font-family: Pacifico;
+    text-align: left;
+}
+
+h2 {
+    background-color:rgba(0,0,0,0.5);
+    color: white;
+    font-size: 40px;
+    font-family: Pacifico;
+    text-align: center;
+/*    vertical-align: middle;*/
+    display: inline-block;
+    margin-top: 200px;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+h2 span {
+    font-family: Sacramento, cursive;
+    font-size: 100px;
+}
+
+.parallaxImage{
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+    border-color: white;
+    margin-top: 100px;
+    height: 700px; 
+}
+
+
+.aboutMeImage {
+    height: 500px;
+}
+
+
+.aboutMeText {
+/*    background-color:rgba(166,0,0,.7);*/
+    margin-top: 40px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+    background-color: #FF084A;
+    opacity: .95;
+    font-family: 'Bree Serif', Serif;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    z-index: 0;
+}
+
+.servicesList {
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+}
+
+
+.image {
+        margin-top: 40px;
+        max-width: 100%;
+    }
